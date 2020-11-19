@@ -34,7 +34,7 @@ public class Exercicio1 {
 
                 if (n < 1) n = 1;
 
-                out.println("Média: " + (double) sum / n);
+                out.println((double) sum / n);
                 out.flush();
 
                 socket.shutdownOutput();
