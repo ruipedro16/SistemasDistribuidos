@@ -7,7 +7,7 @@ import java.net.Socket;
 import java.util.concurrent.locks.ReentrantLock;
 
 class Register { // Estado partilhado
-    private ReentrantLock lock = new ReentrantLock();
+    private final ReentrantLock lock = new ReentrantLock();
     private int n;
     private int sum = 0;
 
