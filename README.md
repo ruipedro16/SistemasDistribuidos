@@ -1,2 +1,3 @@
 # SD
-Sistemas Distribuídos
+
+Resolucao dos guioes de Sistemas Distribuidos
